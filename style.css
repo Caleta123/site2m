@@ -1,0 +1,141 @@
+* {
+	background-color: #f26876;
+	text-align: center;
+	color: #ffd9d6;
+	font-family: verdana;
+}
+
+img {
+	mix-blend-mode: multiply;
+}
+
+.cursive {
+	font-family: cursive;
+} 
+
+a:hover {
+    color: #e5eb34;
+}
+
+li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	background-color: #400303;
+	transition: background-color 0.5s,
+	            color 0.5s;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #400303;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #e8176b;
+	color: whitesmoke;
+}
+
+.containers {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.srca a,
+.srca h6 {
+	background-color: whitesmoke;
+	color: #181c18;
+	font-size: 18px;
+}
+
+
+.srca {
+	background-color: whitesmoke;
+	border-radius: 15px;
+
+}
+
+.recenzija a,
+.recenzija h6 {
+	background-color: #e2e67a;
+	color: #181c18;
+	font-size: 18px;
+}
+
+.recenzija {
+	background-color: #e2e67a;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.containers section {
+	float: left;
+	width: 33%;
+} 
+
+.recenzija,
+.srca {
+	flex: 1;
+}
+
+.kod {
+	background-color: #42f545;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+	margin: auto;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+.kod a,
+.kod h6 {
+	background-color: #42f545;
+	font-size: 18px;
+	color: #181c18;
+}
+
+.end {
+	background-color: #801241;
+	padding: 20px;
+}
+
+.end p,
+.end h6,
+.end h2 {
+	background-color: #801241;
+	font-weight: bold;
+}
+
+.html {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+}
+
+footer {
+	grid-row-start: 3;
+}
+
+@media only screen and (max-width: 600px) {
+    .kod {
+        max-width: 75%; /* Allow the .kod div to take full width on small screens */
+        padding: 0 20px; /* Optional: Add padding for better appearance on small screens */
+    }
+}
