@@ -1,0 +1,56 @@
+{
+    "English": {
+        "title": "My Mother",
+        "navbar": {
+            "home": "Home",
+            "contact": "Contact",
+            "forGrandma": "For Grandma"
+        },
+        "mainText": "Hello, Mom!",
+        "moreHearts": "More Hearts",
+        "sendReview": "Send Review",
+        "viewSource": "View Page Source",
+        "contact": {
+            "title": "Contact",
+            "email": "E-mail",
+            "phoneNumber": "Phone Number"
+        },
+        "footer": "This website was created by Caleta Stipe."
+    },
+    "Český": {
+        "title": "Moje Maminko",
+        "navbar": {
+            "home": "Domov",
+            "contact": "Kontakt",
+            "forGrandma": "Pro Babicku"
+        },
+        "mainText": "Ahoj, Maminko!",
+        "moreHearts": "Více Srdcí",
+        "sendReview": "Poslat Recenzi",
+        "viewSource": "Zobrazit Zdrojový Kód",
+        "contact": {
+            "title": "Kontakt",
+            "email": "E-mail",
+            "phoneNumber": "Telefonní Číslo"
+        },
+        "footer": "Tato webová stránka byla vytvořena Caletou Stipem."
+    },
+    "Hrvatski": {
+        "title": "Moja Mamice",
+        "navbar": {
+            "home": "Početna",
+            "contact": "Kontakt",
+            "forGrandma": "Za Baku"
+        },
+        "mainText": "Zdravo, Mamice!",
+        "moreHearts": "Više Srca",
+        "sendReview": "Pošalji Recenziju",
+        "viewSource": "Pogledajte Izvorni Kod",
+        "contact": {
+            "title": "Kontakt",
+            "email": "E-mail",
+            "phoneNumber": "Broj Telefona"
+        },
+        "footer": "Ova web stranica je izrađena od strane Caleta Stipe."
+    }
+}

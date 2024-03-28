@@ -55,31 +55,30 @@ li a:hover {
 
 .srca a,
 .srca h6 {
-	background-color: whitesmoke;
+	background-color: #DB4B32;
 	color: #181c18;
 	font-size: 18px;
 }
 
 
 .srca {
-	background-color: whitesmoke;
-	border-radius: 15px;
-
+	background-color: #DB4B32;
+	border-radius: 12px;
 }
 
 .recenzija a,
 .recenzija h6 {
-	background-color: #e2e67a;
+	background-color: #DB6932;
 	color: #181c18;
 	font-size: 18px;
 }
 
 .recenzija {
-	background-color: #e2e67a;
-	border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+	background-color: #DB6932;
+	border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .containers section {
@@ -93,20 +92,20 @@ li a:hover {
 }
 
 .kod {
-	background-color: #42f545;
+	background-color: #DB32A9;
 	width: 100%;
 	height: 150px;
-	border-radius: 15px;
+	border-radius: 12px;
 	margin: auto;
 	margin-bottom: 20px;
 	max-width: 600px;
 }
 
 .kod a,
-.kod h6 {
-	background-color: #42f545;
+.kod h6 { 
 	font-size: 18px;
 	color: #181c18;
+	background-color: #DB32A9
 }
 
 .end {
@@ -135,7 +134,25 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .kod {
-        max-width: 75%; /* Allow the .kod div to take full width on small screens */
-        padding: 0 20px; /* Optional: Add padding for better appearance on small screens */
+        max-width: 75%; 
+        padding: 0 20px; 
     }
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	align-items: center;
+	z-index: 1030;
+}
+
+.lang {
+	text-align: right;
+	font-size: 10px;
+}
+
+.lang select {
+	background-color: #3EB3ED;
+	box-shadow: dimgray 2px 2px;
+	border-radius: 5px;
 }
